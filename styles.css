@@ -123,6 +123,7 @@ h2 {
 }
 
 .quote-author {
+    margin-top: 5px;
     text-align: end;
     color: #1f2937;
     font-size: 32px;
