@@ -67,7 +67,7 @@ h1 {
     width: 500px;
 }
 
-.header-button {
+.header-button, .signup-button {
     font-size: 16px;
     font-weight: 500;
     padding: 8px 32px;
@@ -124,6 +124,35 @@ h2 {
     font-weight: 800;
     font-style: normal;
 }
+
+.signup-color {
+    background-color: #f2f2f2;
+}
+.sign-up {
+    margin: 100px 15% 100px 15%;
+    background-color: #3882f6;
+    border: 1px solod #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 32px 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-button {
+    border: 1px solid #f2f2f2;
+}
+
+.top-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottom-text {
+    padding-top: 2px;
+    font-size: 14px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
