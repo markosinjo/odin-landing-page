@@ -15,7 +15,8 @@ header {
 }
 
 .header-logo {
-    color: white;
+    font-size: 24px;
+    color: #f9faf8;
     font-weight: bold;
 }
 
@@ -28,15 +29,16 @@ header {
 
 h1 {
     color: white;
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: bold;
     padding: 0;
     margin: 0;
 }
 
 .header-paragraph {
-    color: #eee;
+    color: #e5e7eb;
     margin: 0 0 12px 0;
+    font-size: 19px;
 }
 
 
@@ -54,7 +56,7 @@ h1 {
 }
 
 .left {
-    flex: 5;
+    flex: 1 1 50%;
     display: flex;
     flex-direction: column;
 }
@@ -69,14 +71,36 @@ h1 {
     font-size: 16px;
     font-weight: 500;
     padding: 8px 32px;
-    background-color: #1f6ad3;
+    background-color: #3882f6;
     color:white;
-    border: 1px solid #1f6ad3;
+    border: 1px solid #3882f6;
     border-radius: 8px;
 }
 
+.main-color {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 16px;
+}
+
+.container {
+    margin: 0 20% 100px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
 
 
+.one, .two, .three, .four {
+    height: 200px;
+    max-width: 200px;
+}
 
 ul {
     list-style-type: none;
