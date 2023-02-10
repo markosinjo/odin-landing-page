@@ -153,6 +153,17 @@ h2 {
     font-size: 14px;
 }
 
+.footer-color {
+    background-color: #1f2937;
+}
+footer {
+    margin: 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: white;
+}
 ul {
     list-style-type: none;
     margin: 0;
