@@ -104,6 +104,26 @@ h2 {
     border-radius: 16px;
 }
 
+.quote-color {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding: 150px 0;
+    margin: 0 15%;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+}
 ul {
     list-style-type: none;
     margin: 0;
